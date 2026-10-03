@@ -18,7 +18,7 @@ Inthar Road is an intelligent road accident detection system designed to detect 
 
 ## Implementation Stage
 
-The system was implemented using **Python**, **YOLOv8n**, and **OpenCV** for vehicle detection and video processing. A custom tracking and accident-analysis system was developed using vehicle trajectories, bounding-box overlap (IoU), distance, relative velocity, and temporal consistency to distinguish possible accidents from normal traffic situations and reduce false detections.
+The system was implemented using **Python**, **YOLOv8n**,and **OpenCV** for vehicle detection and video processing. A custom tracking and accident-analysis system was developed using vehicle trajectories, bounding-box overlap (IoU), distance, relative velocity, and temporal consistency to distinguish possible accidents from normal traffic situations and reduce false detections.
 
 The backend was developed with **FastAPI** and **SQLite** to manage accident records, uploaded videos, and system data. **WebSockets** were implemented to send accident alerts to the monitoring dashboard in real time, while the system maintains a 7-second frame buffer to save video evidence before an accident is detected.
 
